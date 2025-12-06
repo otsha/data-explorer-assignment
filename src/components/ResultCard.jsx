@@ -9,7 +9,7 @@ const ResultCard = ({data}) => {
             </Card.Header>
             <Card.Content>
                 <p className="text-sm text-center">Vieraskielisten osuus</p>
-                <p className="text-xl text-center">{(parseInt(data.nnSpeaker) / parseInt(data.total)).toFixed(2)}%</p>
+                <p className="text-xl text-center">{(parseInt(data.nnSpeaker) / parseInt(data.total) * 100).toFixed(2)}%</p>
                 <div className="flex flex-row gap-4 justify-between mt-4">
                 <div>
                 <p className="text-sm">Päiväkotilapsia yhteensä</p>

@@ -1,5 +1,7 @@
 # Language demographics for Finnish kindergartens by municipality (2024)
 
+[Live Application](https://otsha-data-explorer.netlify.app/)
+
 *A data explorer assignment for Yle, built with React, HeroUI and TailwindCSS on top of Vite.*
 
 ---
