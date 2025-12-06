@@ -14,4 +14,5 @@ html, body, root {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: oklch(29.3% 0.066 243.157);
 }

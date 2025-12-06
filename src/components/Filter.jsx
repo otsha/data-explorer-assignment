@@ -17,8 +17,8 @@ const Filter = ({municipalities, handleSearch}) => {
 
     return (
         <TextField>
-            <Label>Hae omaa kuntaasi</Label>
-            <Input onChange={handleAutoFill} />
+            <Label className="text-white">Hae omaa kuntaasi</Label>
+            <Input className="text-black" onChange={handleAutoFill} />
         </TextField>
     )
 }
